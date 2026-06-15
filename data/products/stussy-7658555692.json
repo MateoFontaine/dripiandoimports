@@ -1,0 +1,95 @@
+{
+  "id": "stussy-7658555692",
+  "brand": "Stüssy",
+  "brandSlug": "stussy",
+  "catalogName": "Stussy Tee",
+  "catalogPrice": "EUR12.99",
+  "itemId": "7658555692",
+  "scrapedAt": "2026-06-15T15:21:31.167Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "93.06",
+  "priceUsd": "14.92",
+  "images": [
+    "https://si.geilicdn.com/open1664375585-1234478995-35700000018f2275ae960a8133b5_1081_967.jpg",
+    "https://si.geilicdn.com/open1664375585-1234478995-6b3e0000018f2275be300a210559_1081_1074.jpg",
+    "https://si.geilicdn.com/open1664375585-1234478995-35960000018f2275c0a50a8133b5_1080_1076.jpg",
+    "https://si.geilicdn.com/open1664375585-1234478995-7f410000018f2275c2ec0a8115b5_1081_1078.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1664375585-1234478995-6b3e0000018f2275be300a210559_1081_1074.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1664375585-1234478995-35960000018f2275c0a50a8133b5_1080_1076.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1664375585-1234478995-7f410000018f2275c2ec0a8115b5_1081_1078.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1664375585-1234478995-6b3e0000018f2275be300a210559_1081_1074.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1664375585-1234478995-35960000018f2275c0a50a8133b5_1080_1076.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1664375585-1234478995-7f410000018f2275c2ec0a8115b5_1081_1078.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

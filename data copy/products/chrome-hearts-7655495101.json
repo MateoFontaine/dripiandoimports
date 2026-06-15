@@ -1,0 +1,164 @@
+{
+  "id": "chrome-hearts-7655495101",
+  "brand": "Chrome Hearts",
+  "brandSlug": "chrome-hearts",
+  "catalogName": "Chrome Hearts Tee",
+  "catalogPrice": "EUR19.55",
+  "itemId": "7655495101",
+  "scrapedAt": "2026-06-15T15:17:00.132Z",
+  "title": "Moda de manga corta - otg.reps1",
+  "priceCny": "140.59",
+  "priceUsd": "22.54",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-232500000194e41c1e520a8133b5_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-232b00000194e41c231d0a8133b5_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2a1b00000194e41c297e0a239383_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-0d3500000194e41c2e6a0a232357_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-55c700000194e41c33410aa0834c_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-235700000194e41c37880a8133b5_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-0d4900000194e41c3c2f0a232357_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2a4b00000194e41c40bc0a239383_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-237100000194e41c45890a8133b5_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-3d2a00000194e41c4a3d0aa08290_1440_1920.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-232500000194e41c1e520a8133b5_1440_1920.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-232b00000194e41c231d0a8133b5_1440_1920.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2a1b00000194e41c297e0a239383_1440_1920.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-0d3500000194e41c2e6a0a232357_1440_1920.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-55c700000194e41c33410aa0834c_1440_1920.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-235700000194e41c37880a8133b5_1440_1920.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-0d4900000194e41c3c2f0a232357_1440_1920.jpg"
+        },
+        {
+          "name": "8",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2a4b00000194e41c40bc0a239383_1440_1920.jpg"
+        },
+        {
+          "name": "9",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-237100000194e41c45890a8133b5_1440_1920.jpg"
+        },
+        {
+          "name": "10",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-3d2a00000194e41c4a3d0aa08290_1440_1920.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-232500000194e41c1e520a8133b5_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-232b00000194e41c231d0a8133b5_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2a1b00000194e41c297e0a239383_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-0d3500000194e41c2e6a0a232357_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-55c700000194e41c33410aa0834c_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-235700000194e41c37880a8133b5_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-0d4900000194e41c3c2f0a232357_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "8",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2a4b00000194e41c40bc0a239383_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "9",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-237100000194e41c45890a8133b5_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "10",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-3d2a00000194e41c4a3d0aa08290_1440_1920.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

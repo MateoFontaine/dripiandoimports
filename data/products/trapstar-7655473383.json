@@ -1,0 +1,134 @@
+{
+  "id": "trapstar-7655473383",
+  "brand": "Trapstar",
+  "brandSlug": "trapstar",
+  "catalogName": "Trapstar Tee",
+  "catalogPrice": "EUR 13.59",
+  "itemId": "7655473383",
+  "scrapedAt": "2026-06-15T15:24:44.392Z",
+  "title": "Moda de manga corta - otg.reps1",
+  "priceCny": "98.01",
+  "priceUsd": "15.72",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-6561000001954106ccd30a22d249_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-6772000001954106d0410a8115c2_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-66eb000001954106d3db0aa0834c_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-6f9f000001954106d7760a23b4de_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-6786000001954106da8d0a8115c2_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-6585000001954106dd490a22d249_1000_1000.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-658b000001954106e0cf0a22d249_1200_1200.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6561000001954106ccd30a22d249_1000_1000.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6772000001954106d0410a8115c2_1000_1000.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-66eb000001954106d3db0aa0834c_1000_1000.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6f9f000001954106d7760a23b4de_1000_1000.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6786000001954106da8d0a8115c2_1000_1000.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6585000001954106dd490a22d249_1000_1000.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-658b000001954106e0cf0a22d249_1200_1200.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6561000001954106ccd30a22d249_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6772000001954106d0410a8115c2_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-66eb000001954106d3db0aa0834c_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6f9f000001954106d7760a23b4de_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6786000001954106da8d0a8115c2_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6585000001954106dd490a22d249_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-658b000001954106e0cf0a22d249_1200_1200.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

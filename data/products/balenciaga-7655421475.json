@@ -1,0 +1,114 @@
+{
+  "id": "balenciaga-7655421475",
+  "brand": "Balenciaga",
+  "brandSlug": "balenciaga",
+  "catalogName": "BALENCIAGA Tee",
+  "catalogPrice": "EUR 19.22",
+  "itemId": "7655421475",
+  "scrapedAt": "2026-06-15T15:22:02.834Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "138.6",
+  "priceUsd": "22.22",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-30ee000001953bd111360a8133b0_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2bd4000001953bd113220a8115c2_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2bd6000001953bd115120a8115c2_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2bd8000001953bd116c10a8115c2_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-2a22000001953bd118d60aa08290_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-30ee000001953bd111360a8133b0_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2bd4000001953bd113220a8115c2_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2bd6000001953bd115120a8115c2_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2bd8000001953bd116c10a8115c2_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-2a22000001953bd118d60aa08290_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XS",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-30ee000001953bd111360a8133b0_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2bd4000001953bd113220a8115c2_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2bd6000001953bd115120a8115c2_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2bd8000001953bd116c10a8115c2_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-2a22000001953bd118d60aa08290_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XS",
+      "image": null
+    }
+  ]
+}

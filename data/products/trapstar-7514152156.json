@@ -1,0 +1,445 @@
+{
+  "id": "trapstar-7514152156",
+  "brand": "Trapstar",
+  "brandSlug": "trapstar",
+  "catalogName": "Trapstar Tee",
+  "catalogPrice": "",
+  "itemId": "7514152156",
+  "scrapedAt": "2026-06-15T17:09:41.200Z",
+  "title": "Conjunto de sudadera negra de pareja con pantalones largos y bordado de cabeza de tigre, CYpp.",
+  "priceCny": "280",
+  "priceUsd": "44.89",
+  "images": [
+    "https://si.geilicdn.com/open1685879877-252808396-7b5100000192acd518510a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5de600000192acd5cb100a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3c5500000192acd5cd770aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-440d00000192acd5cfb20a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-441100000192acd5d1b60a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-4fd800000192acd5d3f80a210298_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-2fc300000192acd5d6450a8133b5_750_1000.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5dfc00000192acd5d8b00a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3c7100000192acd5dbf20aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-7c3700000192acd5de6e0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-21e300000192acd5e0ed0a232357_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-362d00000192acd5e3550a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3c8100000192acd5e5b50aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-2fe300000192acd5e7fa0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-21f300000192acd5ea890a232357_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5e1a00000192acd5ecd20a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-364500000192acd5ef560a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5e2400000192acd5f14f0a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-364900000192acd5f3b70a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-2ff900000192acd5f5b40a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-2ffb00000192acd5f8300a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5e3a00000192acd5fb5b0a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-445b00000192acd5fd890a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-220f00000192acd5ff850a232357_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-365b00000192acd602e20a239383_1920_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-301100000192acd6064d0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-366500000192acd609d20a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-7c7f00000192acd60c4c0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-301b00000192acd60e970a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3cbb00000192acd610e70aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-302700000192acd613360a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3cc700000192acd615930aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-447900000192acd6186a0a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-368100000192acd61abe0a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-448500000192acd61d090a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-7c9d00000192acd6200b0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-505000000192acd622f00a210298_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5e7800000192acd626150a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-449900000192acd62a8a0a22d234_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "\"Color ",
+      "values": [
+        {
+          "name": "Cabeza de tigre rojo y negro gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5de600000192acd5cb100a210559_800_800.jpg"
+        },
+        {
+          "name": "Cabeza de tigre rojo y negro negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3c5500000192acd5cd770aa08290_800_800.jpg"
+        },
+        {
+          "name": "conjunto gris con detalles negro y azul",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-440d00000192acd5cfb20a22d234_800_800.jpg"
+        },
+        {
+          "name": "Cabeza de tigre azul y negro negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-441100000192acd5d1b60a22d234_800_800.jpg"
+        },
+        {
+          "name": "conjunto gris con detalles naranja y azul",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-4fd800000192acd5d3f80a210298_800_800.jpg"
+        },
+        {
+          "name": "Cabeza de tigre azul y naranja negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-2fc300000192acd5d6450a8133b5_750_1000.jpg"
+        },
+        {
+          "name": "conjunto negro con detalles amarillos",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5dfc00000192acd5d8b00a210559_800_800.jpg"
+        },
+        {
+          "name": "Cabeza de tigre blanco y negro negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3c7100000192acd5dbf20aa08290_800_800.jpg"
+        },
+        {
+          "name": "2001 conjunto gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-7c3700000192acd5de6e0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2002 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-21e300000192acd5e0ed0a232357_800_800.jpg"
+        },
+        {
+          "name": "2002 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-362d00000192acd5e3550a239383_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2003 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3c8100000192acd5e5b50aa08290_800_800.jpg"
+        },
+        {
+          "name": "2003 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-2fe300000192acd5e7fa0a8133b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2004 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-21f300000192acd5ea890a232357_800_800.jpg"
+        },
+        {
+          "name": "2004 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5e1a00000192acd5ecd20a210559_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2005 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-364500000192acd5ef560a239383_800_800.jpg"
+        },
+        {
+          "name": "2005 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5e2400000192acd5f14f0a210559_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2006 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-364900000192acd5f3b70a239383_800_800.jpg"
+        },
+        {
+          "name": "2006 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-2ff900000192acd5f5b40a8133b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2007 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-2ffb00000192acd5f8300a8133b5_800_800.jpg"
+        },
+        {
+          "name": "2007 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5e3a00000192acd5fb5b0a210559_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2008 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-445b00000192acd5fd890a22d234_800_800.jpg"
+        },
+        {
+          "name": "2008 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-220f00000192acd5ff850a232357_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2012 azul",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-365b00000192acd602e20a239383_1920_1920.jpg"
+        },
+        {
+          "name": "2445 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-301100000192acd6064d0a8133b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2445 gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-366500000192acd609d20a239383_800_800.jpg"
+        },
+        {
+          "name": "2448 conjunto camuflaje azul",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-7c7f00000192acd60c4c0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2448 marrón camuflado",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-301b00000192acd60e970a8133b5_800_800.jpg"
+        },
+        {
+          "name": "8846 conjunto gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3cbb00000192acd610e70aa08290_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 8846 negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-302700000192acd613360a8133b5_800_800.jpg"
+        },
+        {
+          "name": "2431 conjunto gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3cc700000192acd615930aa08290_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2431 negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-447900000192acd6186a0a22d234_800_800.jpg"
+        },
+        {
+          "name": "2451 conjunto gris",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-368100000192acd61abe0a239383_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2451 negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-448500000192acd61d090a22d234_800_800.jpg"
+        },
+        {
+          "name": "2457 conjunto negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-7c9d00000192acd6200b0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "Conjunto 2001 negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-505000000192acd622f00a210298_800_800.jpg"
+        },
+        {
+          "name": "conjunto gris con detalles blancos",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5e7800000192acd626150a210559_800_800.jpg"
+        },
+        {
+          "name": "Conjunto relámpago negro",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-449900000192acd62a8a0a22d234_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "\"Color ",
+      "name": "Cabeza de tigre rojo y negro gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5de600000192acd5cb100a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Cabeza de tigre rojo y negro negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3c5500000192acd5cd770aa08290_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "conjunto gris con detalles negro y azul",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-440d00000192acd5cfb20a22d234_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Cabeza de tigre azul y negro negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-441100000192acd5d1b60a22d234_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "conjunto gris con detalles naranja y azul",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-4fd800000192acd5d3f80a210298_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Cabeza de tigre azul y naranja negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-2fc300000192acd5d6450a8133b5_750_1000.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "conjunto negro con detalles amarillos",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5dfc00000192acd5d8b00a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Cabeza de tigre blanco y negro negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3c7100000192acd5dbf20aa08290_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2001 conjunto gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-7c3700000192acd5de6e0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2002 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-21e300000192acd5e0ed0a232357_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2002 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-362d00000192acd5e3550a239383_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2003 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3c8100000192acd5e5b50aa08290_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2003 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-2fe300000192acd5e7fa0a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2004 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-21f300000192acd5ea890a232357_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2004 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5e1a00000192acd5ecd20a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2005 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-364500000192acd5ef560a239383_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2005 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5e2400000192acd5f14f0a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2006 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-364900000192acd5f3b70a239383_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2006 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-2ff900000192acd5f5b40a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2007 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-2ffb00000192acd5f8300a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2007 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5e3a00000192acd5fb5b0a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2008 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-445b00000192acd5fd890a22d234_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2008 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-220f00000192acd5ff850a232357_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2012 azul",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-365b00000192acd602e20a239383_1920_1920.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2445 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-301100000192acd6064d0a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2445 gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-366500000192acd609d20a239383_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2448 conjunto camuflaje azul",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-7c7f00000192acd60c4c0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2448 marrón camuflado",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-301b00000192acd60e970a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "8846 conjunto gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3cbb00000192acd610e70aa08290_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 8846 negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-302700000192acd613360a8133b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2431 conjunto gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3cc700000192acd615930aa08290_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2431 negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-447900000192acd6186a0a22d234_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2451 conjunto gris",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-368100000192acd61abe0a239383_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2451 negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-448500000192acd61d090a22d234_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "2457 conjunto negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-7c9d00000192acd6200b0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto 2001 negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-505000000192acd622f00a210298_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "conjunto gris con detalles blancos",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5e7800000192acd626150a210559_800_800.jpg"
+    },
+    {
+      "group": "\"Color ",
+      "name": "Conjunto relámpago negro",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-449900000192acd62a8a0a22d234_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

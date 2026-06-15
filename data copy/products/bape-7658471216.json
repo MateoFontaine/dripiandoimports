@@ -1,0 +1,134 @@
+{
+  "id": "bape-7658471216",
+  "brand": "Bape",
+  "brandSlug": "bape",
+  "catalogName": "Bape Shorts",
+  "catalogPrice": "EUR 13.48",
+  "itemId": "7658471216",
+  "scrapedAt": "2026-06-15T15:28:16.211Z",
+  "title": "Pantalones cortos de moda-otg.reps1",
+  "priceCny": "96.03",
+  "priceUsd": "15.4",
+  "images": [
+    "https://si.geilicdn.com/pcitem901862100388-6ac80000018f9a59d92d0a21146b_640_640.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-24b20000018f9a59d61b0a210256_640_640.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-257e0000018f9a59d7260a2315ef_640_640.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-240c0000018f9a59d81e0a8134f0_640_640.jpg",
+    "https://si.geilicdn.com/pcitem901857164387-6e730000018f12edcccd0a81347d_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901857164387-6ea80000018f12edcbc50a23959c_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-245c0000018f9a5a93820a23111a_295_304.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901862100388-6ac80000018f9a59d92d0a21146b_640_640.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901862100388-24b20000018f9a59d61b0a210256_640_640.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901862100388-257e0000018f9a59d7260a2315ef_640_640.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901862100388-240c0000018f9a59d81e0a8134f0_640_640.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/pcitem901857164387-6e730000018f12edcccd0a81347d_800_800.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/pcitem901857164387-6ea80000018f12edcbc50a23959c_800_800.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/pcitem901862100388-245c0000018f9a5a93820a23111a_295_304.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901862100388-6ac80000018f9a59d92d0a21146b_640_640.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901862100388-24b20000018f9a59d61b0a210256_640_640.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901862100388-257e0000018f9a59d7260a2315ef_640_640.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901862100388-240c0000018f9a59d81e0a8134f0_640_640.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/pcitem901857164387-6e730000018f12edcccd0a81347d_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/pcitem901857164387-6ea80000018f12edcbc50a23959c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/pcitem901862100388-245c0000018f9a5a93820a23111a_295_304.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

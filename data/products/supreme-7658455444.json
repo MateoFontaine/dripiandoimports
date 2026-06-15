@@ -1,0 +1,124 @@
+{
+  "id": "supreme-7658455444",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "EricEmanuel Shorts",
+  "catalogPrice": "EUR 12.01",
+  "itemId": "7658455444",
+  "scrapedAt": "2026-06-15T15:32:33.189Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "86.13",
+  "priceUsd": "13.81",
+  "images": [
+    "https://si.geilicdn.com/pcitem901908522262-468f0000019535fc99bd0a20e2c5_1500_1500.jpg",
+    "https://si.geilicdn.com/pcitem901908522262-50310000019535fcb4e50a23037f_1500_1500.jpg",
+    "https://si.geilicdn.com/pcitem901908522262-4e930000019535fcdb770a2301b4_1500_1500.jpg",
+    "https://si.geilicdn.com/pcitem901908522262-48e00000019535fcf46a0a23057e_1500_1500.jpg",
+    "https://si.geilicdn.com/pcitem901908522262-4a6d000001953608702d0a210256_1500_1500.jpg",
+    "https://si.geilicdn.com/pcitem901908522262-4b1b0000019536088cfb0a23057e_1500_1500.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901908522262-468f0000019535fc99bd0a20e2c5_1500_1500.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901908522262-50310000019535fcb4e50a23037f_1500_1500.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901908522262-4e930000019535fcdb770a2301b4_1500_1500.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901908522262-48e00000019535fcf46a0a23057e_1500_1500.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/pcitem901908522262-4a6d000001953608702d0a210256_1500_1500.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/pcitem901908522262-4b1b0000019536088cfb0a23057e_1500_1500.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901908522262-468f0000019535fc99bd0a20e2c5_1500_1500.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901908522262-50310000019535fcb4e50a23037f_1500_1500.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901908522262-4e930000019535fcdb770a2301b4_1500_1500.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901908522262-48e00000019535fcf46a0a23057e_1500_1500.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/pcitem901908522262-4a6d000001953608702d0a210256_1500_1500.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/pcitem901908522262-4b1b0000019536088cfb0a23057e_1500_1500.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    }
+  ]
+}

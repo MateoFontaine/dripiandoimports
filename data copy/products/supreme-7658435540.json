@@ -1,0 +1,93 @@
+{
+  "id": "supreme-7658435540",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Versace Shorts",
+  "catalogPrice": "EUR 15.18",
+  "itemId": "7658435540",
+  "scrapedAt": "2026-06-15T15:32:43.656Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "108.89",
+  "priceUsd": "17.46",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-01ac00000194eed0ad930a232357_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-182500000194eed0b40b0a8133b5_1440_1920.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-01ac00000194eed0ad930a232357_1440_1920.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-182500000194eed0b40b0a8133b5_1440_1920.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        },
+        {
+          "name": "XXXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-01ac00000194eed0ad930a232357_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-182500000194eed0b40b0a8133b5_1440_1920.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXXL",
+      "image": null
+    }
+  ]
+}

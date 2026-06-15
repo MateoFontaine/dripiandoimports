@@ -1,0 +1,113 @@
+{
+  "id": "supreme-7655505153",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "lululemon Skirt",
+  "catalogPrice": "EUR 16.56",
+  "itemId": "7655505153",
+  "scrapedAt": "2026-06-15T15:32:27.956Z",
+  "title": "Falda corta de moda - otg.reps1",
+  "priceCny": "118.8",
+  "priceUsd": "19.05",
+  "images": [
+    "https://si.geilicdn.com/open1615844877-252808396-4ae90000019888d54f570a8115c2_1000_1000.jpg",
+    "https://si.geilicdn.com/open1615844877-252808396-51b50000019888d550fe0a22d249_1000_1000.jpg",
+    "https://si.geilicdn.com/open1615844877-252808396-4b240000019888d552940a23b491_1000_1000.jpg",
+    "https://si.geilicdn.com/open1615844877-252808396-50a80000019888d554430a231226_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1615844877-252808396-4ae90000019888d54f570a8115c2_1000_1000.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1615844877-252808396-51b50000019888d550fe0a22d249_1000_1000.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1615844877-252808396-4b240000019888d552940a23b491_1000_1000.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1615844877-252808396-50a80000019888d554430a231226_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "2/S",
+          "image": null
+        },
+        {
+          "name": "4/M",
+          "image": null
+        },
+        {
+          "name": "6/L",
+          "image": null
+        },
+        {
+          "name": "8/XL",
+          "image": null
+        },
+        {
+          "name": "10/XXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1615844877-252808396-4ae90000019888d54f570a8115c2_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1615844877-252808396-51b50000019888d550fe0a22d249_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1615844877-252808396-4b240000019888d552940a23b491_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1615844877-252808396-50a80000019888d554430a231226_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "2/S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "4/M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "6/L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "8/XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "10/XXL",
+      "image": null
+    }
+  ]
+}

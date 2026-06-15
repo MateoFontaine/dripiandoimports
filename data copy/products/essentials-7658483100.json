@@ -1,0 +1,105 @@
+{
+  "id": "essentials-7658483100",
+  "brand": "Essentials",
+  "brandSlug": "essentials",
+  "catalogName": "Essentials Tee",
+  "catalogPrice": "EUR9.33",
+  "itemId": "7658483100",
+  "scrapedAt": "2026-06-15T15:25:26.783Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "67.32",
+  "priceUsd": "10.8",
+  "images": [
+    "https://si.geilicdn.com/open1685879877-252808396-4b1f00000192a3c6006b0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-57f400000192a3c626220aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-798100000192a3c627d60a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3da500000192a3c6295b0a232357_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-6b6300000192a3c62b340a210298_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-57f400000192a3c626220aa08290_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-798100000192a3c627d60a210559_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3da500000192a3c6295b0a232357_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-6b6300000192a3c62b340a210298_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-57f400000192a3c626220aa08290_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-798100000192a3c627d60a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3da500000192a3c6295b0a232357_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-6b6300000192a3c62b340a210298_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

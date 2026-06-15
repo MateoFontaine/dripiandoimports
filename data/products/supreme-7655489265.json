@@ -1,0 +1,84 @@
+{
+  "id": "supreme-7655489265",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Givenchy Tee",
+  "catalogPrice": "EUR 22.08",
+  "itemId": "7655489265",
+  "scrapedAt": "2026-06-15T15:31:56.548Z",
+  "title": "Camisa de manga corta de moda otgreps1",
+  "priceCny": "158.4",
+  "priceUsd": "25.4",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-146200000194f90dbfc70a239383_1440_1920.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-27f700000194f90dc3630aa08290_1440_1920.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-146200000194f90dbfc70a239383_1440_1920.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-27f700000194f90dc3630aa08290_1440_1920.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-146200000194f90dbfc70a239383_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-27f700000194f90dc3630aa08290_1440_1920.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

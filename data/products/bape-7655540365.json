@@ -1,0 +1,103 @@
+{
+  "id": "bape-7655540365",
+  "brand": "Bape",
+  "brandSlug": "bape",
+  "catalogName": "Bape Shorts",
+  "catalogPrice": "EUR 17.07",
+  "itemId": "7655540365",
+  "scrapedAt": "2026-06-15T15:28:00.384Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "122.76",
+  "priceUsd": "19.68",
+  "images": [
+    "https://si.geilicdn.com/open1685879877-252808396-44a6000001945956d7db0a22d234_1000_1000.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-0dba000001945956d9490a232357_1000_1000.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-29fb000001945956da930a239383_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-44a6000001945956d7db0a22d234_1000_1000.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-0dba000001945956d9490a232357_1000_1000.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-29fb000001945956da930a239383_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        },
+        {
+          "name": "XXXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-44a6000001945956d7db0a22d234_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-0dba000001945956d9490a232357_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-29fb000001945956da930a239383_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXXL",
+      "image": null
+    }
+  ]
+}

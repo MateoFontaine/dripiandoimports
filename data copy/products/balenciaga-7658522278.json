@@ -1,0 +1,135 @@
+{
+  "id": "balenciaga-7658522278",
+  "brand": "Balenciaga",
+  "brandSlug": "balenciaga",
+  "catalogName": "BALENCIAGA Tee",
+  "catalogPrice": "EUR 24.03",
+  "itemId": "7658522278",
+  "scrapedAt": "2026-06-15T15:22:45.119Z",
+  "title": "Camiseta corta de moda - otg.reps1",
+  "priceCny": "173.25",
+  "priceUsd": "27.78",
+  "images": [
+    "https://si.geilicdn.com/open1624782517-1624782517-6d580000019a0128271a0a8133b0_1200_1200.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-656c00000194640cbd890aa0834c_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-00f600000194640cc3c90a8115b5_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-5b3000000194640cc9de0a210559_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-4a4900000194640cd02d0aa08290_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-4a4b00000194640cd5640aa08290_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-542900000194640c50250a22d234_1440_1920.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-652800000194640c56640aa0834c_1440_1920.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-656c00000194640cbd890aa0834c_1440_1920.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-00f600000194640cc3c90a8115b5_1440_1920.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-5b3000000194640cc9de0a210559_1440_1920.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-4a4900000194640cd02d0aa08290_1440_1920.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-4a4b00000194640cd5640aa08290_1440_1920.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-542900000194640c50250a22d234_1440_1920.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-652800000194640c56640aa0834c_1440_1920.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XS",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-656c00000194640cbd890aa0834c_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-00f600000194640cc3c90a8115b5_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-5b3000000194640cc9de0a210559_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-4a4900000194640cd02d0aa08290_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-4a4b00000194640cd5640aa08290_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-542900000194640c50250a22d234_1440_1920.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-652800000194640c56640aa0834c_1440_1920.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XS",
+      "image": null
+    }
+  ]
+}

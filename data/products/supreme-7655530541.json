@@ -1,0 +1,174 @@
+{
+  "id": "supreme-7655530541",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Supreme Tee",
+  "catalogPrice": "EUR 13.79",
+  "itemId": "7655530541",
+  "scrapedAt": "2026-06-15T15:29:50.722Z",
+  "title": "Camisa de manga corta de moda - otg.reps1",
+  "priceCny": "99",
+  "priceUsd": "15.87",
+  "images": [
+    "https://si.geilicdn.com/open1685879877-252808396-700f0000019468caa12f0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-778d0000019468caa3e50a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-3f4a0000019468caa74e0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-12e80000019468caa9550a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-77950000019468caab1b0a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-19970000019468caad640a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-70170000019468caafae0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-199b0000019468cab1900a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-199d0000019468cab36c0a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-23d20000019468cab5530aa0834c_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-08680000019468cab7600aa08290_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-700f0000019468caa12f0a8133b5_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-778d0000019468caa3e50a239383_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-3f4a0000019468caa74e0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-12e80000019468caa9550a22d234_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-77950000019468caab1b0a239383_800_800.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-19970000019468caad640a210559_800_800.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-70170000019468caafae0a8133b5_800_800.jpg"
+        },
+        {
+          "name": "8",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-199b0000019468cab1900a210559_800_800.jpg"
+        },
+        {
+          "name": "9",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-199d0000019468cab36c0a210559_800_800.jpg"
+        },
+        {
+          "name": "10",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-23d20000019468cab5530aa0834c_800_800.jpg"
+        },
+        {
+          "name": "11",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-08680000019468cab7600aa08290_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XS",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-700f0000019468caa12f0a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-778d0000019468caa3e50a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-3f4a0000019468caa74e0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-12e80000019468caa9550a22d234_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-77950000019468caab1b0a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-19970000019468caad640a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-70170000019468caafae0a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "8",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-199b0000019468cab1900a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "9",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-199d0000019468cab36c0a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "10",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-23d20000019468cab5530aa0834c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "11",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-08680000019468cab7600aa08290_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XS",
+      "image": null
+    }
+  ]
+}

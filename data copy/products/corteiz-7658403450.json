@@ -1,0 +1,94 @@
+{
+  "id": "corteiz-7658403450",
+  "brand": "Corteiz",
+  "brandSlug": "corteiz",
+  "catalogName": "Corteiz Tee",
+  "catalogPrice": "EUR10.03",
+  "itemId": "7658403450",
+  "scrapedAt": "2026-06-15T15:16:35.164Z",
+  "title": "Camiseta corta de moda - otg.reps1",
+  "priceCny": "72.27",
+  "priceUsd": "11.59",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-25ba000001953bc7f62f0a8133b0_1080_1080.jpg",
+    "https://si.geilicdn.com/pcitem1919750623-03150000019909a04c150a21146b_800_800.jpg",
+    "https://si.geilicdn.com/pcitem1919750623-14160000019909a063580a20e2c5_1200_1200.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-25ba000001953bc7f62f0a8133b0_1080_1080.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem1919750623-03150000019909a04c150a21146b_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem1919750623-14160000019909a063580a20e2c5_1200_1200.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-25ba000001953bc7f62f0a8133b0_1080_1080.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem1919750623-03150000019909a04c150a21146b_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem1919750623-14160000019909a063580a20e2c5_1200_1200.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

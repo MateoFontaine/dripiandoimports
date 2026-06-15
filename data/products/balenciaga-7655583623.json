@@ -1,0 +1,124 @@
+{
+  "id": "balenciaga-7655583623",
+  "brand": "Balenciaga",
+  "brandSlug": "balenciaga",
+  "catalogName": "BALENCIAGA Tee",
+  "catalogPrice": "EUR 25.07",
+  "itemId": "7655583623",
+  "scrapedAt": "2026-06-15T15:22:08.126Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "180.18",
+  "priceUsd": "28.89",
+  "images": [
+    "https://si.geilicdn.com/pcitem901862100388-67740000018fa8ac7bd90a20e35c_1000_1000.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-4d370000018fc77408f40a239846_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-4dc80000018fc7740a910a23038e_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-4a760000018fc7740bf60a230115_700_700.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-23ba0000018fa8ac7d6e0a23037f_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901862100388-22b20000018fa8ac77a90a8134f0_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901862100388-4d370000018fc77408f40a239846_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901862100388-4dc80000018fc7740a910a23038e_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901862100388-4a760000018fc7740bf60a230115_700_700.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901862100388-23ba0000018fa8ac7d6e0a23037f_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/pcitem901862100388-22b20000018fa8ac77a90a8134f0_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901862100388-4d370000018fc77408f40a239846_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901862100388-4dc80000018fc7740a910a23038e_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901862100388-4a760000018fc7740bf60a230115_700_700.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901862100388-23ba0000018fa8ac7d6e0a23037f_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/pcitem901862100388-22b20000018fa8ac77a90a8134f0_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "supreme-7734583946",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Supreme Tee",
+  "catalogPrice": "",
+  "itemId": "7734583946",
+  "scrapedAt": "2026-06-15T17:09:55.548Z",
+  "title": "Nueva camiseta de moda de manga corta para verano",
+  "priceCny": "80",
+  "priceUsd": "12.83",
+  "images": [
+    "https://si.geilicdn.com/open1745348293-252808396-15e70000019d7a39020c0aa08239_1440_1440.jpg",
+    "https://si.geilicdn.com/open1745348293-252808396-1d050000019d7a38fee90a22d249_1440_1440.jpg",
+    "https://si.geilicdn.com/open1745348293-252808396-15290000019d7a39006b0a23b4de_1440_1440.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1745348293-252808396-1d050000019d7a38fee90a22d249_1440_1440.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1745348293-252808396-15290000019d7a39006b0a23b4de_1440_1440.jpg"
+        }
+      ]
+    },
+    {
+      "label": "YF tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "2XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1745348293-252808396-1d050000019d7a38fee90a22d249_1440_1440.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1745348293-252808396-15290000019d7a39006b0a23b4de_1440_1440.jpg"
+    },
+    {
+      "group": "YF tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "YF tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "YF tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "YF tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "YF tamaño ",
+      "name": "2XL",
+      "image": null
+    }
+  ]
+}

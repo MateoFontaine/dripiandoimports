@@ -1,0 +1,452 @@
+{
+  "id": "supreme-7658553788",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Kenzo Tee",
+  "catalogPrice": "EUR 22.60",
+  "itemId": "7658553788",
+  "scrapedAt": "2026-06-15T15:30:58.859Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "162.37",
+  "priceUsd": "26.03",
+  "images": [
+    "https://si.geilicdn.com/open1779483633-1234478995-5ab50000018f1f9b2b590aa0233d_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-12280000018f1f9b2d960a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-122a0000018f1f9b2ee80a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5c910000018f1f9b30090a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-262c0000018f1f9b34640a8115b5_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-64730000018f1f9b382d0a239383_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4a900000018f1f9b3c010a232357_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-70280000018f1f9b3df90a210298_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-702c0000018f1f9b41660a210298_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5abf0000018f1f9b43840aa0233d_1000_1000.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4f280000018f1f9b461a0a239631_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-12360000018f1f9b476b0a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5c9d0000018f1f9b4bd90a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-26380000018f1f9b4eec0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-647d0000018f1f9b50880a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4a9c0000018f1f9b536a0a232357_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5ca70000018f1f9b5a150a8133b5_2560_2560.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-26420000018f1f9b5dc10a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-64850000018f1f9b60250a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-12420000018f1f9b62c30a210559_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5ca90000018f1f9b63e60a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-26460000018f1f9b662a0a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-64890000018f1f9b67630a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-703e0000018f1f9b6ba80a210298_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5acf0000018f1f9b6d9e0aa0233d_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4f380000018f1f9b6fc30a239631_1000_1000.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-264c0000018f1f9b7a8c0a8115b5_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-64910000018f1f9b7d910a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4ab00000018f1f9b805b0a232357_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-26520000018f1f9b82e70a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5adb0000018f1f9b85bc0aa0233d_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4f440000018f1f9b88640a239631_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-12520000018f1f9b8b5b0a210559_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-5cbb0000018f1f9b8f3c0a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-704e0000018f1f9b90790a210298_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-649b0000018f1f9b93c40a239383_1200_1200.jpg",
+    "https://si.geilicdn.com/open1779483633-1234478995-4ab80000018f1f9b95cc0a232357_1200_1200.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5ab50000018f1f9b2b590aa0233d_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-12280000018f1f9b2d960a210559_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-122a0000018f1f9b2ee80a210559_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5c910000018f1f9b30090a8133b5_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-262c0000018f1f9b34640a8115b5_1200_1200.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-64730000018f1f9b382d0a239383_1200_1200.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4a900000018f1f9b3c010a232357_1200_1200.jpg"
+        },
+        {
+          "name": "8",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-70280000018f1f9b3df90a210298_1200_1200.jpg"
+        },
+        {
+          "name": "9",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-702c0000018f1f9b41660a210298_1200_1200.jpg"
+        },
+        {
+          "name": "10",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5abf0000018f1f9b43840aa0233d_1000_1000.jpg"
+        },
+        {
+          "name": "11",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4f280000018f1f9b461a0a239631_800_800.jpg"
+        },
+        {
+          "name": "12",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-12360000018f1f9b476b0a210559_800_800.jpg"
+        },
+        {
+          "name": "13",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5c9d0000018f1f9b4bd90a8133b5_800_800.jpg"
+        },
+        {
+          "name": "14",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-26380000018f1f9b4eec0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "15",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-647d0000018f1f9b50880a239383_800_800.jpg"
+        },
+        {
+          "name": "16",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4a9c0000018f1f9b536a0a232357_800_800.jpg"
+        },
+        {
+          "name": "17",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5ca70000018f1f9b5a150a8133b5_2560_2560.jpg"
+        },
+        {
+          "name": "18",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-26420000018f1f9b5dc10a8115b5_800_800.jpg"
+        },
+        {
+          "name": "19",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-64850000018f1f9b60250a239383_800_800.jpg"
+        },
+        {
+          "name": "20",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-12420000018f1f9b62c30a210559_800_800.jpg"
+        },
+        {
+          "name": "21",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5ca90000018f1f9b63e60a8133b5_800_800.jpg"
+        },
+        {
+          "name": "22",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-26460000018f1f9b662a0a8115b5_800_800.jpg"
+        },
+        {
+          "name": "23",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-64890000018f1f9b67630a239383_800_800.jpg"
+        },
+        {
+          "name": "24",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-703e0000018f1f9b6ba80a210298_800_800.jpg"
+        },
+        {
+          "name": "25",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5acf0000018f1f9b6d9e0aa0233d_800_800.jpg"
+        },
+        {
+          "name": "26",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4f380000018f1f9b6fc30a239631_1000_1000.jpg"
+        },
+        {
+          "name": "27",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-264c0000018f1f9b7a8c0a8115b5_1200_1200.jpg"
+        },
+        {
+          "name": "28",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-64910000018f1f9b7d910a239383_800_800.jpg"
+        },
+        {
+          "name": "29",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4ab00000018f1f9b805b0a232357_1200_1200.jpg"
+        },
+        {
+          "name": "30",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-26520000018f1f9b82e70a8115b5_800_800.jpg"
+        },
+        {
+          "name": "31",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5adb0000018f1f9b85bc0aa0233d_800_800.jpg"
+        },
+        {
+          "name": "32",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4f440000018f1f9b88640a239631_800_800.jpg"
+        },
+        {
+          "name": "33",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-12520000018f1f9b8b5b0a210559_1200_1200.jpg"
+        },
+        {
+          "name": "34",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-5cbb0000018f1f9b8f3c0a8133b5_800_800.jpg"
+        },
+        {
+          "name": "35",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-704e0000018f1f9b90790a210298_1200_1200.jpg"
+        },
+        {
+          "name": "36",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-649b0000018f1f9b93c40a239383_1200_1200.jpg"
+        },
+        {
+          "name": "37",
+          "image": "https://si.geilicdn.com/open1779483633-1234478995-4ab80000018f1f9b95cc0a232357_1200_1200.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        },
+        {
+          "name": "XXXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5ab50000018f1f9b2b590aa0233d_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-12280000018f1f9b2d960a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-122a0000018f1f9b2ee80a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5c910000018f1f9b30090a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-262c0000018f1f9b34640a8115b5_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-64730000018f1f9b382d0a239383_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4a900000018f1f9b3c010a232357_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "8",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-70280000018f1f9b3df90a210298_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "9",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-702c0000018f1f9b41660a210298_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "10",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5abf0000018f1f9b43840aa0233d_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "11",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4f280000018f1f9b461a0a239631_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "12",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-12360000018f1f9b476b0a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "13",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5c9d0000018f1f9b4bd90a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "14",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-26380000018f1f9b4eec0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "15",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-647d0000018f1f9b50880a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "16",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4a9c0000018f1f9b536a0a232357_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "17",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5ca70000018f1f9b5a150a8133b5_2560_2560.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "18",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-26420000018f1f9b5dc10a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "19",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-64850000018f1f9b60250a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "20",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-12420000018f1f9b62c30a210559_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "21",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5ca90000018f1f9b63e60a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "22",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-26460000018f1f9b662a0a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "23",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-64890000018f1f9b67630a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "24",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-703e0000018f1f9b6ba80a210298_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "25",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5acf0000018f1f9b6d9e0aa0233d_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "26",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4f380000018f1f9b6fc30a239631_1000_1000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "27",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-264c0000018f1f9b7a8c0a8115b5_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "28",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-64910000018f1f9b7d910a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "29",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4ab00000018f1f9b805b0a232357_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "30",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-26520000018f1f9b82e70a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "31",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5adb0000018f1f9b85bc0aa0233d_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "32",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4f440000018f1f9b88640a239631_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "33",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-12520000018f1f9b8b5b0a210559_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "34",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-5cbb0000018f1f9b8f3c0a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "35",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-704e0000018f1f9b90790a210298_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "36",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-649b0000018f1f9b93c40a239383_1200_1200.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "37",
+      "image": "https://si.geilicdn.com/open1779483633-1234478995-4ab80000018f1f9b95cc0a232357_1200_1200.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXXL",
+      "image": null
+    }
+  ]
+}

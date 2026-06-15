@@ -1,0 +1,143 @@
+{
+  "id": "supreme-7655544167",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Mlb shorts",
+  "catalogPrice": "EUR 18.20",
+  "itemId": "7655544167",
+  "scrapedAt": "2026-06-15T15:31:25.025Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "130.68",
+  "priceUsd": "20.95",
+  "images": [
+    "https://si.geilicdn.com/open1685879877-252808396-7e38000001944a04a7ec0a239383_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-1233000001944a04aa020a22d234_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-7693000001944a04ac890a8133b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-45b6000001944a04aec50a8115b5_800_800.jpg",
+    "https://si.geilicdn.com/open1685879877-252808396-2aca000001944a04b1120aa0834c_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901898590714-35340000019449fc66c60a239646_2000_2000.jpg",
+    "https://si.geilicdn.com/pcitem901898590714-340b0000019449fc5e930a81347d_2000_2000.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-7e38000001944a04a7ec0a239383_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-1233000001944a04aa020a22d234_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-7693000001944a04ac890a8133b5_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-45b6000001944a04aec50a8115b5_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1685879877-252808396-2aca000001944a04b1120aa0834c_800_800.jpg"
+        },
+        {
+          "name": "6",
+          "image": "https://si.geilicdn.com/pcitem901898590714-35340000019449fc66c60a239646_2000_2000.jpg"
+        },
+        {
+          "name": "7",
+          "image": "https://si.geilicdn.com/pcitem901898590714-340b0000019449fc5e930a81347d_2000_2000.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-7e38000001944a04a7ec0a239383_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-1233000001944a04aa020a22d234_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-7693000001944a04ac890a8133b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-45b6000001944a04aec50a8115b5_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1685879877-252808396-2aca000001944a04b1120aa0834c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "6",
+      "image": "https://si.geilicdn.com/pcitem901898590714-35340000019449fc66c60a239646_2000_2000.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "7",
+      "image": "https://si.geilicdn.com/pcitem901898590714-340b0000019449fc5e930a81347d_2000_2000.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "supreme-7658514526",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Nofs Summer Set",
+  "catalogPrice": "EUR 23.99",
+  "itemId": "7658514526",
+  "scrapedAt": "2026-06-15T15:32:22.732Z",
+  "title": "Conjunto de moda - otg.reps1",
+  "priceCny": "171.27",
+  "priceUsd": "27.46",
+  "images": [
+    "https://si.geilicdn.com/pcitem901857861682-74e50000018f85db35ed0a23038e_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901857861682-74050000018f85db351e0a210256_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901857861682-75370000018f85db34470a207569_800_800.jpg",
+    "https://si.geilicdn.com/pcitem901857861682-77040000018f85db336e0a8134f0_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901857861682-74e50000018f85db35ed0a23038e_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901857861682-74050000018f85db351e0a210256_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901857861682-75370000018f85db34470a207569_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901857861682-77040000018f85db336e0a8134f0_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901857861682-74e50000018f85db35ed0a23038e_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901857861682-74050000018f85db351e0a210256_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901857861682-75370000018f85db34470a207569_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901857861682-77040000018f85db336e0a8134f0_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    }
+  ]
+}

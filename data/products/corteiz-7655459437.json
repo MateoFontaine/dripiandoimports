@@ -1,0 +1,104 @@
+{
+  "id": "corteiz-7655459437",
+  "brand": "Corteiz",
+  "brandSlug": "corteiz",
+  "catalogName": "Corteiz Shorts",
+  "catalogPrice": "EUR17.16",
+  "itemId": "7655459437",
+  "scrapedAt": "2026-06-15T15:20:27.772Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "123.75",
+  "priceUsd": "19.84",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-4f72000001953c11613c0a23b491_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-5ed2000001953c1164160aa0834c_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-5deb000001953c11667f0aa08290_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-6797000001953c1169380a23b4de_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-4f72000001953c11613c0a23b491_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-5ed2000001953c1164160aa0834c_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-5deb000001953c11667f0aa08290_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-6797000001953c1169380a23b4de_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-4f72000001953c11613c0a23b491_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-5ed2000001953c1164160aa0834c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-5deb000001953c11667f0aa08290_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-6797000001953c1169380a23b4de_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

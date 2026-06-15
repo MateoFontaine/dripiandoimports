@@ -1,0 +1,113 @@
+{
+  "id": "supreme-7655532533",
+  "brand": "Supreme",
+  "brandSlug": "supreme",
+  "catalogName": "Celine Tee",
+  "catalogPrice": "EUR 19.60",
+  "itemId": "7655532533",
+  "scrapedAt": "2026-06-15T15:32:07.043Z",
+  "title": "Camiseta corta de moda - otg.reps1",
+  "priceCny": "140.59",
+  "priceUsd": "22.54",
+  "images": [
+    "https://si.geilicdn.com/pcitem901898590714-25a2000001945edf38960a210349_750_750.jpg",
+    "https://si.geilicdn.com/pcitem901898590714-2716000001945edf362c0a23037f_750_750.jpg",
+    "https://si.geilicdn.com/pcitem901898590714-26d9000001945edf33860a231316_750_750.jpg",
+    "https://si.geilicdn.com/pcitem901898590714-2737000001945edf34dd0a20e273_750_750.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901898590714-25a2000001945edf38960a210349_750_750.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901898590714-2716000001945edf362c0a23037f_750_750.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901898590714-26d9000001945edf33860a231316_750_750.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901898590714-2737000001945edf34dd0a20e273_750_750.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901898590714-25a2000001945edf38960a210349_750_750.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901898590714-2716000001945edf362c0a23037f_750_750.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901898590714-26d9000001945edf33860a231316_750_750.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901898590714-2737000001945edf34dd0a20e273_750_750.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    }
+  ]
+}

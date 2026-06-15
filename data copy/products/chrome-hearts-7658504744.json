@@ -1,0 +1,113 @@
+{
+  "id": "chrome-hearts-7658504744",
+  "brand": "Chrome Hearts",
+  "brandSlug": "chrome-hearts",
+  "catalogName": "Chrome Hearts Tee",
+  "catalogPrice": "EUR13.77",
+  "itemId": "7658504744",
+  "scrapedAt": "2026-06-15T15:17:40.601Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "99",
+  "priceUsd": "15.87",
+  "images": [
+    "https://si.geilicdn.com/pcitem901940024420-38ec0000019787496e6d0a210139_1280_1280.jpg",
+    "https://si.geilicdn.com/pcitem901940024420-2c43000001978749871a0a20e7c7_1280_1280.jpg",
+    "https://si.geilicdn.com/pcitem901940024420-2d42000001978749a23b0a20e2c5_1280_1280.jpg",
+    "https://si.geilicdn.com/pcitem901940024420-3800000001978749b78e0a20e672_1280_1280.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem901940024420-38ec0000019787496e6d0a210139_1280_1280.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem901940024420-2c43000001978749871a0a20e7c7_1280_1280.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem901940024420-2d42000001978749a23b0a20e2c5_1280_1280.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901940024420-3800000001978749b78e0a20e672_1280_1280.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        },
+        {
+          "name": "XXL",
+          "image": null
+        },
+        {
+          "name": "XXXL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem901940024420-38ec0000019787496e6d0a210139_1280_1280.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem901940024420-2c43000001978749871a0a20e7c7_1280_1280.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem901940024420-2d42000001978749a23b0a20e2c5_1280_1280.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901940024420-3800000001978749b78e0a20e672_1280_1280.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXL",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XXXL",
+      "image": null
+    }
+  ]
+}

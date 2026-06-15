@@ -1,0 +1,115 @@
+{
+  "id": "essentials-7658502746",
+  "brand": "Essentials",
+  "brandSlug": "essentials",
+  "catalogName": "Essentials Short",
+  "catalogPrice": "EUR14.40",
+  "itemId": "7658502746",
+  "scrapedAt": "2026-06-15T15:25:48.109Z",
+  "title": "Pantalones cortos de moda - otg.reps1",
+  "priceCny": "103.95",
+  "priceUsd": "16.67",
+  "images": [
+    "https://si.geilicdn.com/open1839861941-252808396-11e4000001953bbe71940a8115c2_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-1228000001953bbf084c0aa0834c_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-10df000001953bbf0aeb0a22d249_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-122e000001953bbf0ddf0aa0834c_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-10e1000001953bbf104e0a22d249_800_800.jpg",
+    "https://si.geilicdn.com/open1839861941-252808396-7673000001953bbf12f40a231226_800_800.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-1228000001953bbf084c0aa0834c_800_800.jpg"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-10df000001953bbf0aeb0a22d249_800_800.jpg"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-122e000001953bbf0ddf0aa0834c_800_800.jpg"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-10e1000001953bbf104e0a22d249_800_800.jpg"
+        },
+        {
+          "name": "5",
+          "image": "https://si.geilicdn.com/open1839861941-252808396-7673000001953bbf12f40a231226_800_800.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-1228000001953bbf084c0aa0834c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-10df000001953bbf0aeb0a22d249_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-122e000001953bbf0ddf0aa0834c_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-10e1000001953bbf104e0a22d249_800_800.jpg"
+    },
+    {
+      "group": "Estilo ",
+      "name": "5",
+      "image": "https://si.geilicdn.com/open1839861941-252808396-7673000001953bbf12f40a231226_800_800.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}

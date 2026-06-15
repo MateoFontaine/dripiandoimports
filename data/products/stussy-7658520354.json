@@ -1,0 +1,104 @@
+{
+  "id": "stussy-7658520354",
+  "brand": "Stüssy",
+  "brandSlug": "stussy",
+  "catalogName": "Stussy Tee",
+  "catalogPrice": "EUR13.29",
+  "itemId": "7658520354",
+  "scrapedAt": "2026-06-15T15:21:46.945Z",
+  "title": "Camiseta de moda de manga corta - otg.reps1",
+  "priceCny": "95.04",
+  "priceUsd": "15.24",
+  "images": [
+    "https://si.geilicdn.com/pcitem1583459867-1ab20000018ecbbc7b3a0a207569-unadjust_914_888.png",
+    "https://si.geilicdn.com/pcitem1583459867-1bb00000018ecbbc7c320a20e273-unadjust_879_878.png",
+    "https://si.geilicdn.com/pcitem1583459867-1f100000018ecbbc7d220a231418-unadjust_909_867.png",
+    "https://si.geilicdn.com/pcitem901862100388-1ecf0000018f9f139b410a20e7c7_720_960.jpg"
+  ],
+  "options": [
+    {
+      "label": "Estilo ",
+      "values": [
+        {
+          "name": "1",
+          "image": "https://si.geilicdn.com/pcitem1583459867-1ab20000018ecbbc7b3a0a207569-unadjust_914_888.png"
+        },
+        {
+          "name": "2",
+          "image": "https://si.geilicdn.com/pcitem1583459867-1bb00000018ecbbc7c320a20e273-unadjust_879_878.png"
+        },
+        {
+          "name": "3",
+          "image": "https://si.geilicdn.com/pcitem1583459867-1f100000018ecbbc7d220a231418-unadjust_909_867.png"
+        },
+        {
+          "name": "4",
+          "image": "https://si.geilicdn.com/pcitem901862100388-1ecf0000018f9f139b410a20e7c7_720_960.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Tamaño ",
+      "values": [
+        {
+          "name": "S",
+          "image": null
+        },
+        {
+          "name": "M",
+          "image": null
+        },
+        {
+          "name": "L",
+          "image": null
+        },
+        {
+          "name": "XL",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "group": "Estilo ",
+      "name": "1",
+      "image": "https://si.geilicdn.com/pcitem1583459867-1ab20000018ecbbc7b3a0a207569-unadjust_914_888.png"
+    },
+    {
+      "group": "Estilo ",
+      "name": "2",
+      "image": "https://si.geilicdn.com/pcitem1583459867-1bb00000018ecbbc7c320a20e273-unadjust_879_878.png"
+    },
+    {
+      "group": "Estilo ",
+      "name": "3",
+      "image": "https://si.geilicdn.com/pcitem1583459867-1f100000018ecbbc7d220a231418-unadjust_909_867.png"
+    },
+    {
+      "group": "Estilo ",
+      "name": "4",
+      "image": "https://si.geilicdn.com/pcitem901862100388-1ecf0000018f9f139b410a20e7c7_720_960.jpg"
+    },
+    {
+      "group": "Tamaño ",
+      "name": "S",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "M",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "L",
+      "image": null
+    },
+    {
+      "group": "Tamaño ",
+      "name": "XL",
+      "image": null
+    }
+  ]
+}
