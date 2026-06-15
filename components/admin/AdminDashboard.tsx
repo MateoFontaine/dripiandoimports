@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import type { AdminBrand, AdminProduct, AdminStats } from '@/lib/admin-products';
+import { normalizePriceUsd } from '@/lib/price-utils';
 import ProductFormModal, {
   emptyProductForm,
   productToForm,
@@ -86,11 +87,12 @@ export default function AdminDashboard({
       brandSlug: form.brandSlug,
       name: form.name,
       title: form.title || null,
-      priceUsd: form.priceUsd || null,
+      priceUsd: normalizePriceUsd(form.priceUsd),
       itemId: form.itemId,
       extractId: form.extractId || null,
       kakobuyUrl: form.kakobuyUrl || null,
       images: form.imageUrls,
+      options: form.options,
       isHidden: form.isHidden,
       useDirectEdit: true,
     };
@@ -248,8 +250,8 @@ export default function AdminDashboard({
                   </td>
                   <td>{product.brandName}</td>
                   <td>
-                    {product.priceUsd ? (
-                      <div className="admin-product-name">${product.priceUsd} USD</div>
+                    {product.displayPriceUsd ? (
+                      <div className="admin-product-name">${product.displayPriceUsd} USD</div>
                     ) : (
                       <div className="admin-product-sub">Sin precio</div>
                     )}

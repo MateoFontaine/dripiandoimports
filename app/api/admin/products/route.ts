@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { isAdminRequest } from '@/lib/admin-auth';
 import {
   buildKakobuyUrl,
@@ -7,6 +8,7 @@ import {
   getAdminProducts,
   getAffcode,
 } from '@/lib/admin-products';
+import { normalizePriceUsd } from '@/lib/price-utils';
 import { createServiceClient } from '@/lib/supabase/server';
 
 function unauthorized() {
@@ -30,7 +32,7 @@ export async function POST(request: Request) {
   if (!isAdminRequest(request)) return unauthorized();
 
   const body = await request.json();
-  const { brandSlug, name, itemId, extractId, weidianUrl, kakobuyUrl, title, priceUsd, images, isHidden } =
+  const { brandSlug, name, itemId, extractId, weidianUrl, kakobuyUrl, title, priceUsd, images, options, isHidden } =
     body;
 
   if (!brandSlug || !name || !itemId) {
@@ -61,12 +63,12 @@ export async function POST(request: Request) {
     weidian_url: weidianUrl?.trim() || buildWeidianUrl(item_id),
     kakobuy_url: kakobuyUrl?.trim() || buildKakobuyUrl(item_id, affcode),
     title: title ? String(title).trim() : null,
-    price_usd: priceUsd ? String(priceUsd).trim() : null,
+    price_usd: normalizePriceUsd(priceUsd),
     price_cny: null,
     is_scraped: false,
     is_hidden: Boolean(isHidden),
     images: Array.isArray(images) ? images : [],
-    options: [],
+    options: Array.isArray(options) ? options : [],
     variants: [],
     admin_overrides: {},
   };
@@ -80,5 +82,7 @@ export async function POST(request: Request) {
   }
 
   const data = await getAdminProducts();
+  revalidatePath('/');
+  revalidatePath('/admin');
   return NextResponse.json({ ok: true, product: row, ...data });
 }

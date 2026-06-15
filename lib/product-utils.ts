@@ -1,4 +1,5 @@
 import type { Brand, Catalog, Product } from '@/types/catalog';
+import { formatPriceUsd, normalizePriceUsd, resolvePriceUsd } from '@/lib/price-utils';
 
 export function normalizeLabel(label: string) {
   return (label || '').trim();
@@ -37,7 +38,8 @@ export function flattenProducts(catalog: Catalog): Product[] {
 }
 
 export function formatPrice(product: Product) {
-  if (product.priceUsd) return `$${product.priceUsd}`;
+  const usd = resolvePriceUsd(product.priceUsd);
+  if (usd) return formatPriceUsd(usd);
   return product.price || '';
 }
 
@@ -63,7 +65,7 @@ export function groupProductsByBrand(
       price: String(row.price || ''),
       title: (row.title as string) || null,
       priceCny: (row.price_cny as string) || null,
-      priceUsd: (row.price_usd as string) || null,
+      priceUsd: normalizePriceUsd(row.price_usd as string | null),
       extractId: (row.extract_id as string) || null,
       itemId: (row.item_id as string) || null,
       weidianUrl: (row.weidian_url as string) || null,

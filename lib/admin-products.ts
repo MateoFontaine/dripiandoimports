@@ -1,4 +1,5 @@
 import { createServiceClient } from '@/lib/supabase/server';
+import { normalizePriceUsd } from '@/lib/price-utils';
 
 export interface AdminBrand {
   id: string;
@@ -18,6 +19,7 @@ export interface AdminProduct {
   title: string | null;
   displayTitle: string | null;
   priceUsd: string | null;
+  displayPriceUsd: string | null;
   priceCny: string | null;
   itemId: string;
   extractId: string | null;
@@ -26,6 +28,7 @@ export interface AdminProduct {
   isHidden: boolean;
   isScraped: boolean;
   images: string[];
+  options: import('@/types/catalog').ProductOption[];
   adminOverrides: Record<string, string>;
 }
 
@@ -103,6 +106,7 @@ export async function getAdminProducts(): Promise<{ products: AdminProduct[]; st
       title: row.title,
       displayTitle: merged.title,
       priceUsd: row.price_usd,
+      displayPriceUsd: normalizePriceUsd(row.price_usd),
       priceCny: row.price_cny,
       itemId: row.item_id,
       extractId: row.extract_id,
@@ -111,6 +115,7 @@ export async function getAdminProducts(): Promise<{ products: AdminProduct[]; st
       isHidden: row.is_hidden,
       isScraped: row.is_scraped,
       images: row.images || [],
+      options: row.options || [],
       adminOverrides: overrides,
     };
   });

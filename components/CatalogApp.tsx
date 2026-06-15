@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Catalog, Product } from '@/types/catalog';
@@ -9,6 +9,7 @@ import {
   getProductType,
   normalizeLabel,
 } from '@/lib/product-utils';
+import { formatPriceUsd } from '@/lib/price-utils';
 import {
   addToCart,
   clearCart,
@@ -127,7 +128,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
       return group.values?.length && !selectedOptions[label];
     });
     if (missing) {
-      alert(`Seleccioná ${normalizeLabel(missing.label)} antes de agregar al carrito.`);
+      alert(`Seleccion├í ${normalizeLabel(missing.label)} antes de agregar al carrito.`);
       return;
     }
     setCartItems(addToCart(selectedProduct, selectedOptions, 1, mainImage));
@@ -147,7 +148,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
 
   const selectionText = Object.entries(selectedOptions)
     .map(([k, v]) => `${k}: ${v}`)
-    .join(' · ');
+    .join(' ┬À ');
 
   return (
     <>
@@ -166,7 +167,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
         <div className="header-inner">
           <div className="brand-lockup">
             <h1>Dripeando Imports</h1>
-            <p className="subtitle">Seleccioná marca y producto</p>
+            <p className="subtitle">Seleccion├í marca y producto</p>
           </div>
           <div className="header-actions">
             <div className="search-wrap">
@@ -334,7 +335,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                   <div className="detail-prices">
                     {selectedProduct.priceUsd ? (
                       <div className="price-tag">
-                        ${selectedProduct.priceUsd} <span>USD</span>
+                        {formatPriceUsd(selectedProduct.priceUsd)} <span>USD</span>
                       </div>
                     ) : null}
                   </div>
@@ -393,7 +394,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                   </div>
                   {selectionText ? (
                     <div className="selection-summary">
-                      <strong>Tu selección:</strong> {selectionText}
+                      <strong>Tu selecci├│n:</strong> {selectionText}
                     </div>
                   ) : null}
                   <button
@@ -401,7 +402,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                     type="button"
                     onClick={handleAddToCart}
                   >
-                    {addedToCart ? '✓ Agregado' : 'Agregar al carrito'}
+                    {addedToCart ? 'Ô£ô Agregado' : 'Agregar al carrito'}
                   </button>
                 </div>
               </div>
@@ -417,7 +418,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
           if (e.target === cartModalRef.current) cartModalRef.current?.close();
         }}
       >
-        <div className="modal-panel modal-panel--center modal-panel--cart">
+        <div className="modal-panel modal-panel--cart">
           <div className="modal-body cart-panel">
             <button
               className="modal-close"
@@ -431,13 +432,13 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
             </button>
             <h2 className="cart-title">Tu carrito</h2>
             {cartItems.length === 0 ? (
-              <p className="cart-empty">Tu carrito está vacío.</p>
+              <p className="cart-empty">Tu carrito est├í vac├¡o.</p>
             ) : (
               <>
                 <div className="cart-items">
                   {cartItems.map((item) => {
                     const opts = formatOptions(item.options);
-                    const price = item.priceUsd ? `$${item.priceUsd}` : item.price || '';
+                    const price = item.priceUsd ? formatPriceUsd(item.priceUsd) : item.price || '';
                     return (
                       <article key={item.cartId} className="cart-item">
                         <div className="cart-item-image">
@@ -445,7 +446,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                             // eslint-disable-next-line @next/next/no-img-element
                             <img src={item.image} alt={item.name} loading="lazy" />
                           ) : (
-                            <div className="placeholder">—</div>
+                            <div className="placeholder">ÔÇö</div>
                           )}
                         </div>
                         <div className="cart-item-info">
@@ -461,13 +462,13 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                                 aria-label="Menos"
                                 onClick={() => setCartItems(updateQuantity(item.cartId, item.quantity - 1))}
                               >
-                                −
+                                ÔêÆ
                               </button>
                               <span className="qty-value">{item.quantity}</span>
                               <button
                                 type="button"
                                 className="qty-btn"
-                                aria-label="Más"
+                                aria-label="M├ís"
                                 onClick={() => setCartItems(updateQuantity(item.cartId, item.quantity + 1))}
                               >
                                 +
@@ -488,7 +489,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                 </div>
                 <div className="cart-footer">
                   <p className="cart-summary">
-                    {cartCount} artículo{cartCount === 1 ? '' : 's'} en el carrito
+                    {cartCount} art├¡culo{cartCount === 1 ? '' : 's'} en el carrito
                   </p>
                   <a
                     className="btn-whatsapp"
@@ -503,7 +504,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                     className="btn-ghost"
                     onClick={() => {
                       if (!cartItems.length) return;
-                      if (!confirm('¿Vaciar el carrito?')) return;
+                      if (!confirm('┬┐Vaciar el carrito?')) return;
                       setCartItems(clearCart());
                     }}
                   >
@@ -520,9 +521,9 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
         <div className="site-footer-inner">
           <p className="site-footer-title">Aviso legal</p>
           <p className="site-footer-text">
-            Las imágenes publicadas en este catálogo tienen carácter exclusivamente ilustrativo y han sido
-            obtenidas de fuentes disponibles en internet. No constituyen una representación exacta del
-            producto físico entregado. Los artículos comercializados son productos originales.
+            Las im├ígenes publicadas en este cat├ílogo tienen car├ícter exclusivamente ilustrativo y han sido
+            obtenidas de fuentes disponibles en internet. No constituyen una representaci├│n exacta del
+            producto f├¡sico entregado. Los art├¡culos comercializados son productos originales.
           </p>
         </div>
       </footer>

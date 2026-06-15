@@ -1,4 +1,5 @@
 import type { Product } from '@/types/catalog';
+import { formatPriceUsd, normalizePriceUsd } from '@/lib/price-utils';
 
 const CART_KEY = 'dripeando-cart';
 export const WHATSAPP_NUMBER = '18132911362';
@@ -59,7 +60,7 @@ export function addToCart(
       name: product.name,
       brandName: product.brandName || '',
       price: product.price || '',
-      priceUsd: product.priceUsd || '',
+      priceUsd: normalizePriceUsd(product.priceUsd) || '',
       options: { ...options },
       quantity,
       image: image || product.images?.[0] || null,
@@ -96,7 +97,8 @@ export function getCartCount(items: CartItem[]) {
 }
 
 function formatItemPrice(item: CartItem) {
-  if (item.priceUsd) return `$${item.priceUsd} USD`;
+  const formatted = formatPriceUsd(item.priceUsd);
+  if (formatted) return `${formatted} USD`;
   if (item.price) return item.price;
   return 'Consultar';
 }

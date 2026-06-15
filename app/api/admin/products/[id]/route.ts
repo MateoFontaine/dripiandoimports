@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { isAdminRequest } from '@/lib/admin-auth';
 import { getAdminProducts } from '@/lib/admin-products';
+import { normalizePriceUsd } from '@/lib/price-utils';
 import { createServiceClient } from '@/lib/supabase/server';
 
 type RouteContext = { params: Promise<{ id: string }> };
@@ -39,6 +41,7 @@ export async function PATCH(request: Request, context: RouteContext) {
     isHidden: 'is_hidden',
     isScraped: 'is_scraped',
     images: 'images',
+    options: 'options',
   };
 
   const overrideMap: Record<string, string> = {
@@ -48,7 +51,18 @@ export async function PATCH(request: Request, context: RouteContext) {
   };
 
   for (const [key, column] of Object.entries(directMap)) {
-    if (body[key] !== undefined) directFields[column] = body[key];
+    if (body[key] === undefined) continue;
+    if (key === 'priceUsd') {
+      directFields[column] = normalizePriceUsd(body[key]);
+      continue;
+    }
+    directFields[column] = body[key];
+  }
+
+  if (body.priceUsd !== undefined) {
+    delete overrideFields.priceUsd;
+    delete overrideFields.price;
+    delete overrideFields.priceCny;
   }
 
   for (const [key, overrideKey] of Object.entries(overrideMap)) {
@@ -59,7 +73,7 @@ export async function PATCH(request: Request, context: RouteContext) {
   }
 
   if (body.useDirectEdit) {
-    for (const field of ['name', 'title', 'priceUsd']) {
+    for (const field of ['name', 'title', 'priceUsd', 'price']) {
       delete overrideFields[field];
     }
   }
@@ -71,6 +85,9 @@ export async function PATCH(request: Request, context: RouteContext) {
 
   const { error } = await supabase.from('products').update(update).eq('id', id);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  revalidatePath('/');
+  revalidatePath('/admin');
 
   const data = await getAdminProducts();
   return NextResponse.json({ ok: true, ...data });

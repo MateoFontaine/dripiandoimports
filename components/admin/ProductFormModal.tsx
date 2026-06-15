@@ -2,6 +2,9 @@
 
 import { useMemo, useState } from 'react';
 import type { AdminBrand } from '@/lib/admin-products';
+import type { ProductOption } from '@/types/catalog';
+import { getSizesFromOptions, mergeSizesIntoOptions } from '@/lib/product-options';
+import { normalizePriceUsd } from '@/lib/price-utils';
 
 export interface ProductFormValues {
   brandSlug: string;
@@ -12,6 +15,8 @@ export interface ProductFormValues {
   extractId: string;
   kakobuyUrl: string;
   imageUrls: string[];
+  sizes: string[];
+  options: ProductOption[];
   isHidden: boolean;
 }
 
@@ -36,6 +41,7 @@ export default function ProductFormModal({
 }: ProductFormModalProps) {
   const [form, setForm] = useState<ProductFormValues>(initial);
   const [imageInput, setImageInput] = useState('');
+  const [sizeInput, setSizeInput] = useState('');
 
   const brandName = brands.find((b) => b.slug === form.brandSlug)?.name || '';
   const coverImage = form.imageUrls[0] || null;
@@ -77,6 +83,36 @@ export default function ProductFormModal({
     update('imageUrls', copy);
   }
 
+  function addSize() {
+    const size = sizeInput.trim().toUpperCase();
+    if (!size) return;
+    if (form.sizes.includes(size)) {
+      setSizeInput('');
+      return;
+    }
+    const sizes = [...form.sizes, size];
+    update('sizes', sizes);
+    update('options', mergeSizesIntoOptions(form.options, sizes));
+    setSizeInput('');
+  }
+
+  function removeSize(size: string) {
+    const sizes = form.sizes.filter((s) => s !== size);
+    update('sizes', sizes);
+    update('options', mergeSizesIntoOptions(form.options, sizes));
+  }
+
+  function handleSubmit() {
+    const priceUsd = normalizePriceUsd(form.priceUsd) || '';
+    const sizes = form.sizes.map((s) => s.trim()).filter(Boolean);
+    onSubmit({
+      ...form,
+      priceUsd,
+      sizes,
+      options: mergeSizesIntoOptions(form.options, sizes),
+    });
+  }
+
   return (
     <div className="admin-modal-backdrop" onClick={onClose}>
       <div className="product-editor" onClick={(e) => e.stopPropagation()}>
@@ -97,7 +133,7 @@ export default function ProductFormModal({
           className="product-editor-body"
           onSubmit={(e) => {
             e.preventDefault();
-            onSubmit(form);
+            handleSubmit();
           }}
         >
           <div className="product-editor-preview-col">
@@ -253,6 +289,41 @@ export default function ProductFormModal({
             </section>
 
             <section className="product-editor-section">
+              <h3>Talles</h3>
+              <p className="product-editor-hint">Agregá o quitá talles disponibles para este producto.</p>
+              {form.sizes.length ? (
+                <div className="product-editor-sizes">
+                  {form.sizes.map((size) => (
+                    <span key={size} className="product-editor-size-chip">
+                      {size}
+                      <button type="button" aria-label={`Quitar talle ${size}`} onClick={() => removeSize(size)}>
+                        ×
+                      </button>
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="product-editor-empty-sizes">Sin talles cargados.</p>
+              )}
+              <div className="product-editor-add-size">
+                <input
+                  value={sizeInput}
+                  onChange={(e) => setSizeInput(e.target.value)}
+                  placeholder="Ej: M, L, XL"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      addSize();
+                    }
+                  }}
+                />
+                <button type="button" className="admin-btn-secondary" onClick={addSize}>
+                  Agregar talle
+                </button>
+              </div>
+            </section>
+
+            <section className="product-editor-section">
               <h3>Weidian / Kakobuy</h3>
               <div className="product-editor-grid">
                 <label className="product-editor-field">
@@ -317,6 +388,7 @@ export default function ProductFormModal({
 }
 
 export function emptyProductForm(brands: AdminBrand[]): ProductFormValues {
+  const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
   return {
     brandSlug: brands[0]?.slug || '',
     name: '',
@@ -326,6 +398,8 @@ export function emptyProductForm(brands: AdminBrand[]): ProductFormValues {
     extractId: '',
     kakobuyUrl: '',
     imageUrls: [],
+    sizes,
+    options: mergeSizesIntoOptions([], sizes),
     isHidden: false,
   };
 }
@@ -333,6 +407,7 @@ export function emptyProductForm(brands: AdminBrand[]): ProductFormValues {
 export function productToForm(
   product: import('@/lib/admin-products').AdminProduct
 ): ProductFormValues {
+  const sizes = getSizesFromOptions(product.options);
   return {
     brandSlug: product.brandSlug,
     name: product.displayName,
@@ -342,6 +417,8 @@ export function productToForm(
     extractId: product.extractId || '',
     kakobuyUrl: product.kakobuyUrl || '',
     imageUrls: product.images || [],
+    sizes,
+    options: product.options || [],
     isHidden: product.isHidden,
   };
 }

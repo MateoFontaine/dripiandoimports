@@ -1,8 +1,10 @@
 import { createClient } from '@/lib/supabase/server';
 import { groupProductsByBrand } from '@/lib/product-utils';
 import type { Catalog } from '@/types/catalog';
+import { unstable_noStore as noStore } from 'next/cache';
 
 export async function getCatalog(): Promise<Catalog> {
+  noStore();
   const supabase = createClient();
 
   const [{ data: brands, error: brandsError }, { data: products, error: productsError }, { data: meta }] =
