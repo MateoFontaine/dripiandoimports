@@ -1,23 +1,37 @@
 import { NextResponse } from 'next/server';
-import { adminCookieOptions, createAdminToken, isAdminRequest } from '@/lib/admin-auth';
+import { isAdminUser, requireAdmin } from '@/lib/admin-auth';
+import { createAuthServerClient } from '@/lib/supabase/auth';
 
 export async function POST(request: Request) {
-  const { password } = await request.json();
-  const expected = process.env.ADMIN_PASSWORD || 'catalogo2026';
+  const { email, password } = await request.json();
 
-  if (password !== expected) {
-    return NextResponse.json({ error: 'Contraseña incorrecta' }, { status: 401 });
+  if (!email || !password) {
+    return NextResponse.json({ error: 'Email y contraseña son obligatorios' }, { status: 400 });
   }
 
-  const token = createAdminToken();
-  const response = NextResponse.json({ ok: true });
-  response.cookies.set('admin_token', token, adminCookieOptions());
-  return response;
+  const supabase = await createAuthServerClient();
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email: String(email).trim().toLowerCase(),
+    password: String(password),
+  });
+
+  if (error || !data.user) {
+    return NextResponse.json({ error: 'Email o contraseña incorrectos' }, { status: 401 });
+  }
+
+  const admin = await isAdminUser(data.user.id);
+  if (!admin) {
+    await supabase.auth.signOut();
+    return NextResponse.json({ error: 'Esta cuenta no tiene acceso de admin' }, { status: 403 });
+  }
+
+  return NextResponse.json({ ok: true });
 }
 
-export async function GET(request: Request) {
-  if (!isAdminRequest(request)) {
+export async function GET() {
+  const user = await requireAdmin();
+  if (!user) {
     return NextResponse.json({ authenticated: false }, { status: 401 });
   }
-  return NextResponse.json({ authenticated: true });
+  return NextResponse.json({ authenticated: true, email: user.email });
 }

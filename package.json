@@ -10,9 +10,11 @@
     "scrape:sheet": "node scripts/scrape-sheet.js",
     "scrape:kakobuy": "node scripts/scrape-kakobuy.js",
     "seed:supabase": "node scripts/seed-supabase.js",
-    "sync:supabase": "node scripts/seed-supabase.js"
+    "sync:supabase": "node scripts/seed-supabase.js",
+    "create:admin": "node scripts/create-admin.js"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.0",
     "@supabase/supabase-js": "^2.49.8",
     "dotenv": "^16.5.0",
     "next": "^16.2.9",

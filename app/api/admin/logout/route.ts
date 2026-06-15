@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { adminCookieOptions } from '@/lib/admin-auth';
+import { createAuthServerClient } from '@/lib/supabase/auth';
 
 export async function POST() {
-  const response = NextResponse.json({ ok: true });
-  response.cookies.set('admin_token', '', { ...adminCookieOptions(), maxAge: 0 });
-  return response;
+  const supabase = await createAuthServerClient();
+  await supabase.auth.signOut();
+  return NextResponse.json({ ok: true });
 }

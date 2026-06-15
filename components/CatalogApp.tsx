@@ -17,6 +17,7 @@ import {
   loadCart,
   removeFromCart,
   updateQuantity,
+  formatOptions,
   type CartItem,
 } from '@/lib/cart';
 
@@ -135,7 +136,6 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
   };
 
   const cartCount = getCartCount(cartItems);
-  const origin = typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '';
 
   const thumbImages = selectedProduct
     ? [...new Set(selectedProduct.images || [])].length
@@ -436,9 +436,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
               <>
                 <div className="cart-items">
                   {cartItems.map((item) => {
-                    const opts = Object.entries(item.options)
-                      .map(([k, v]) => `${k}: ${v}`)
-                      .join(' · ');
+                    const opts = formatOptions(item.options);
                     const price = item.priceUsd ? `$${item.priceUsd}` : item.price || '';
                     return (
                       <article key={item.cartId} className="cart-item">
@@ -494,7 +492,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
                   </p>
                   <a
                     className="btn-whatsapp"
-                    href={getWhatsAppUrl(cartItems, origin)}
+                    href={getWhatsAppUrl(cartItems)}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

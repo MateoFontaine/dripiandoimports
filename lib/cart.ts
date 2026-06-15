@@ -2,6 +2,9 @@ import type { Product } from '@/types/catalog';
 
 const CART_KEY = 'dripeando-cart';
 export const WHATSAPP_NUMBER = '18132911362';
+export const SITE_URL =
+  (typeof process !== 'undefined' && process.env.NEXT_PUBLIC_SITE_URL) ||
+  'https://dripeandoimports.vercel.app';
 
 export interface CartItem {
   cartId: string;
@@ -98,23 +101,35 @@ function formatItemPrice(item: CartItem) {
   return 'Consultar';
 }
 
+function friendlyOptionLabel(key: string) {
+  const normalized = key.toLowerCase();
+  if (/estilo|style|color/.test(normalized)) return 'Color';
+  if (/tamaño|tamano|size|talle/.test(normalized)) return 'Talle';
+  return key;
+}
+
 function formatOptions(options: Record<string, string>) {
   return Object.entries(options || {})
-    .map(([k, v]) => `${k}: ${v}`)
+    .map(([k, v]) => `${friendlyOptionLabel(k)}: ${v}`)
     .join(' · ');
 }
 
-export function buildWhatsAppMessage(items: CartItem[], origin: string) {
+function getProductUrl(productId: string) {
+  const base = SITE_URL.replace(/\/$/, '');
+  return `${base}/#${productId}`;
+}
+
+export function buildWhatsAppMessage(items: CartItem[]) {
   const lines = ['Hola, quiero hacer el siguiente pedido:', ''];
 
   items.forEach((item, i) => {
     lines.push(`${i + 1}. *${item.brandName} — ${item.name}*`);
-    const opts = formatOptions(item.options);
-    if (opts) lines.push(`   ${opts}`);
+    for (const [key, value] of Object.entries(item.options || {})) {
+      lines.push(`   ${friendlyOptionLabel(key)}: ${value}`);
+    }
     lines.push(`   Precio: ${formatItemPrice(item)}`);
     lines.push(`   Cantidad: ${item.quantity}`);
-    if (origin) lines.push(`   Ver producto: ${origin}#${item.productId}`);
-    if (item.image) lines.push(`   Imagen: ${item.image}`);
+    lines.push(`   Link: ${getProductUrl(item.productId)}`);
     lines.push('');
   });
 
@@ -125,7 +140,9 @@ export function buildWhatsAppMessage(items: CartItem[], origin: string) {
   return lines.join('\n');
 }
 
-export function getWhatsAppUrl(items: CartItem[], origin: string) {
-  const text = encodeURIComponent(buildWhatsAppMessage(items, origin));
+export function getWhatsAppUrl(items: CartItem[]) {
+  const text = encodeURIComponent(buildWhatsAppMessage(items));
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
 }
+
+export { formatOptions };

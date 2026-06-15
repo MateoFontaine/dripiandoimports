@@ -96,15 +96,6 @@ export async function syncCatalogMeta(supabase, catalog, catalogPublic) {
   if (error) throw error;
 }
 
-export async function syncAdminConfig(supabase, password) {
-  const { error } = await supabase.from('admin_config').upsert({
-    id: 1,
-    password,
-  });
-
-  if (error) throw error;
-}
-
 export async function syncBrands(supabase, brands) {
   const brandIds = new Map();
 
@@ -213,14 +204,9 @@ export function buildCatalogIndex(catalog) {
   return index;
 }
 
-/**
- * Sincroniza catalog.json + catalog-public.json + data/products/ → Supabase.
- * Preserva is_hidden y admin_overrides que ya existan en la DB.
- */
 export async function syncFromLocalFiles({
   dataDir,
   useJsonOverrides = false,
-  adminPassword,
 } = {}) {
   const root = dataDir || join(__dirname, '..', '..', 'data');
   const catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8'));
@@ -237,26 +223,12 @@ export async function syncFromLocalFiles({
     }
   }
 
-  let adminConfigPassword = adminPassword;
-  if (!adminConfigPassword) {
-    try {
-      const cfg = JSON.parse(readFileSync(join(root, 'admin-config.json'), 'utf8'));
-      adminConfigPassword = cfg.password;
-    } catch {
-      /* ok */
-    }
-  }
-
   const supabase = getSupabase();
   const dbAdmin = await fetchAdminStateFromDb(supabase);
   const jsonHidden = new Set(jsonOverrides.hidden || []);
   const jsonEdits = jsonOverrides.edits || {};
 
   await syncCatalogMeta(supabase, catalog, catalogPublic);
-  await syncAdminConfig(
-    supabase,
-    process.env.ADMIN_PASSWORD || adminConfigPassword || 'catalogo2026'
-  );
 
   const brandIds = await syncBrands(supabase, catalogPublic.brands);
   const rows = [];

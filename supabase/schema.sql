@@ -71,7 +71,25 @@ CREATE TABLE IF NOT EXISTS catalog_meta (
 );
 
 -- ------------------------------------------------------------
--- Config admin (la contraseña real debería ir en env vars en prod)
+-- Admins (cuentas con acceso al panel)
+-- ------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS admin_profiles (
+  id         UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+  email      TEXT NOT NULL UNIQUE,
+  name       TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+ALTER TABLE admin_profiles ENABLE ROW LEVEL SECURITY;
+
+DROP POLICY IF EXISTS "admin_profiles_read_own" ON admin_profiles;
+CREATE POLICY "admin_profiles_read_own"
+  ON admin_profiles FOR SELECT
+  TO authenticated
+  USING (auth.uid() = id);
+
+-- ------------------------------------------------------------
+-- Config admin (legacy, ya no se usa para login)
 -- ------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS admin_config (
   id            INT PRIMARY KEY DEFAULT 1 CHECK (id = 1),

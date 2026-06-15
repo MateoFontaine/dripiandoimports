@@ -9,6 +9,7 @@ export default function LoginForm() {
   const searchParams = useSearchParams();
   const next = searchParams.get('next') || '/admin';
 
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -22,12 +23,12 @@ export default function LoginForm() {
       const res = await fetch('/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ email, password }),
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
-        setError(data.error || 'Contraseña incorrecta');
+        setError(data.error || 'No se pudo iniciar sesión');
         return;
       }
 
@@ -46,10 +47,21 @@ export default function LoginForm() {
         <div className="login-brand">
           <p className="login-eyebrow">Dripeando Imports</p>
           <h1>Panel admin</h1>
-          <p>Ingresá para gestionar el catálogo.</p>
+          <p>Ingresá con tu cuenta de administrador.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="login-form">
+          <label>
+            Email
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="tu@email.com"
+              autoComplete="email"
+              required
+            />
+          </label>
           <label>
             Contraseña
             <input

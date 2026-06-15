@@ -1,57 +1,34 @@
-import { createHmac, timingSafeEqual } from 'crypto';
+import { createAuthServerClient } from '@/lib/supabase/auth';
+import { createServiceClient } from '@/lib/supabase/server';
 
-export const ADMIN_COOKIE = 'admin_token';
-
-function getSecret() {
-  return process.env.ADMIN_PASSWORD || 'catalogo2026';
+export async function getAuthUser() {
+  const supabase = await createAuthServerClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  return user;
 }
 
-export function createAdminToken() {
-  const payload = Buffer.from(
-    JSON.stringify({ exp: Date.now() + 24 * 60 * 60 * 1000 })
-  ).toString('base64url');
-  const sig = createHmac('sha256', getSecret()).update(payload).digest('base64url');
-  return `${payload}.${sig}`;
+export async function isAdminUser(userId: string) {
+  const supabase = createServiceClient();
+  const { data, error } = await supabase
+    .from('admin_profiles')
+    .select('id')
+    .eq('id', userId)
+    .maybeSingle();
+
+  if (error) throw error;
+  return Boolean(data);
 }
 
-export function verifyAdminToken(token: string | null | undefined) {
-  if (!token) return false;
-
-  const [payload, sig] = token.split('.');
-  if (!payload || !sig) return false;
-
-  const expected = createHmac('sha256', getSecret()).update(payload).digest('base64url');
-
-  try {
-    if (!timingSafeEqual(Buffer.from(sig), Buffer.from(expected))) return false;
-    const data = JSON.parse(Buffer.from(payload, 'base64url').toString()) as { exp: number };
-    return data.exp > Date.now();
-  } catch {
-    return false;
-  }
+export async function requireAdmin() {
+  const user = await getAuthUser();
+  if (!user) return null;
+  const admin = await isAdminUser(user.id);
+  return admin ? user : null;
 }
 
-export function getAdminTokenFromRequest(request: Request) {
-  const header = request.headers.get('x-admin-token');
-  if (header) return header;
-
-  const cookieHeader = request.headers.get('cookie');
-  if (!cookieHeader) return null;
-
-  const match = cookieHeader.match(new RegExp(`(?:^|;\\s*)${ADMIN_COOKIE}=([^;]+)`));
-  return match ? decodeURIComponent(match[1]) : null;
-}
-
-export function isAdminRequest(request: Request) {
-  return verifyAdminToken(getAdminTokenFromRequest(request));
-}
-
-export function adminCookieOptions() {
-  return {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax' as const,
-    path: '/',
-    maxAge: 60 * 60 * 24,
-  };
+export async function isAdminRequest(_request?: Request) {
+  const user = await requireAdmin();
+  return Boolean(user);
 }

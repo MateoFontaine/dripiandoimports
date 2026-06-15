@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { ADMIN_COOKIE, verifyAdminToken } from '@/lib/admin-auth';
+import { requireAdmin } from '@/lib/admin-auth';
 import '../admin.css';
 
 export const metadata: Metadata = {
@@ -10,10 +9,8 @@ export const metadata: Metadata = {
 };
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
-  const token = (await cookies()).get(ADMIN_COOKIE)?.value;
-  if (!verifyAdminToken(token)) {
-    redirect('/login?next=/admin');
-  }
+  const user = await requireAdmin();
+  if (!user) redirect('/login?next=/admin');
 
   return <div className="admin-shell">{children}</div>;
 }
