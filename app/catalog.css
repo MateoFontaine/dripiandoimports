@@ -16,12 +16,12 @@
   --touch-min: 44px;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; overflow-x: hidden; width: 100%; }
 
 body {
-  font-family: 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-dm-sans, 'DM Sans', system-ui, sans-serif);
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
@@ -518,17 +518,19 @@ body.modal-open { overflow: hidden; }
   max-height: 94dvh;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior: contain;
+  overflow: hidden;
   border-radius: var(--radius) var(--radius) 0 0;
   box-shadow: var(--shadow);
   position: relative;
 }
 
-.modal-body.cart-panel {
-  overflow: hidden;
+.modal-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  min-height: 0;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 @media (min-width: 768px) {
