@@ -39,6 +39,7 @@ export async function PATCH(request: Request, context: RouteContext) {
     weidianUrl: 'weidian_url',
     kakobuyUrl: 'kakobuy_url',
     isHidden: 'is_hidden',
+    isFeatured: 'is_featured',
     isScraped: 'is_scraped',
     images: 'images',
     options: 'options',

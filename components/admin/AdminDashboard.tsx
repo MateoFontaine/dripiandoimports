@@ -94,6 +94,7 @@ export default function AdminDashboard({
       images: form.imageUrls,
       options: form.options,
       isHidden: form.isHidden,
+      isFeatured: form.isFeatured,
       useDirectEdit: true,
     };
   }
@@ -261,6 +262,9 @@ export default function AdminDashboard({
                       <span className={`admin-badge ${product.isHidden ? 'hidden' : 'visible'}`}>
                         {product.isHidden ? 'Oculto' : 'Visible'}
                       </span>
+                      {product.isFeatured ? (
+                        <span className="admin-badge featured">✨ Destacado</span>
+                      ) : null}
                       {product.isScraped ? (
                         <span className="admin-badge scraped">Scrapeado</span>
                       ) : null}

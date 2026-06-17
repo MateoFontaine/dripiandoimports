@@ -32,7 +32,7 @@ export async function POST(request: Request) {
   if (!isAdminRequest(request)) return unauthorized();
 
   const body = await request.json();
-  const { brandSlug, name, itemId, extractId, weidianUrl, kakobuyUrl, title, priceUsd, images, options, isHidden } =
+  const { brandSlug, name, itemId, extractId, weidianUrl, kakobuyUrl, title, priceUsd, images, options, isHidden, isFeatured } =
     body;
 
   if (!brandSlug || !name || !itemId) {
@@ -67,6 +67,7 @@ export async function POST(request: Request) {
     price_cny: null,
     is_scraped: false,
     is_hidden: Boolean(isHidden),
+    is_featured: Boolean(isFeatured),
     images: Array.isArray(images) ? images : [],
     options: Array.isArray(options) ? options : [],
     variants: [],

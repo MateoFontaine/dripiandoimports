@@ -20,6 +20,7 @@ export interface Product {
   weidianUrl?: string | null;
   kakobuyUrl?: string | null;
   scraped?: boolean;
+  featured?: boolean;
   images?: string[];
   options?: ProductOption[];
   variants?: Array<{ group: string; name: string; image: string | null }>;

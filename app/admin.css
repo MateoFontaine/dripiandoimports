@@ -269,6 +269,11 @@
   color: #1d4ed8;
 }
 
+.admin-badge.featured {
+  background: #fefce8;
+  color: #92400e;
+}
+
 .admin-row-actions {
   display: flex;
   gap: 0.35rem;

@@ -47,7 +47,7 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
   const allProducts = useMemo(() => flattenProducts(catalog), [catalog]);
 
   const featuredProducts = useMemo(
-    () => allProducts.filter((p) => getCoverImage(p)).slice(0, 8),
+    () => allProducts.filter((p) => p.featured && getCoverImage(p)),
     [allProducts]
   );
 

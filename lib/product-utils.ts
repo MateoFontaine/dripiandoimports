@@ -71,6 +71,7 @@ export function groupProductsByBrand(
       weidianUrl: (row.weidian_url as string) || null,
       kakobuyUrl: (row.kakobuy_url as string) || null,
       scraped: Boolean(row.scraped),
+      featured: Boolean(row.featured),
       images: (row.images as string[]) || [],
       options: (row.options as Product['options']) || [],
       variants: (row.variants as Product['variants']) || [],

@@ -18,6 +18,7 @@ export interface ProductFormValues {
   sizes: string[];
   options: ProductOption[];
   isHidden: boolean;
+  isFeatured: boolean;
 }
 
 interface ProductFormModalProps {
@@ -360,6 +361,20 @@ export default function ProductFormModal({
               <label className="product-editor-toggle">
                 <input
                   type="checkbox"
+                  checked={form.isFeatured}
+                  onChange={(e) => update('isFeatured', e.target.checked)}
+                />
+                <span>
+                  <strong>✨ Producto destacado</strong>
+                  <small>Se muestra en la sección de destacados al inicio del catálogo.</small>
+                </span>
+              </label>
+            </section>
+
+            <section className="product-editor-section">
+              <label className="product-editor-toggle">
+                <input
+                  type="checkbox"
                   checked={form.isHidden}
                   onChange={(e) => update('isHidden', e.target.checked)}
                 />
@@ -401,6 +416,7 @@ export function emptyProductForm(brands: AdminBrand[]): ProductFormValues {
     sizes,
     options: mergeSizesIntoOptions([], sizes),
     isHidden: false,
+    isFeatured: false,
   };
 }
 
@@ -420,5 +436,6 @@ export function productToForm(
     sizes,
     options: product.options || [],
     isHidden: product.isHidden,
+    isFeatured: product.isFeatured,
   };
 }

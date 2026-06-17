@@ -26,6 +26,7 @@ export interface AdminProduct {
   weidianUrl: string | null;
   kakobuyUrl: string | null;
   isHidden: boolean;
+  isFeatured: boolean;
   isScraped: boolean;
   images: string[];
   options: import('@/types/catalog').ProductOption[];
@@ -113,6 +114,7 @@ export async function getAdminProducts(): Promise<{ products: AdminProduct[]; st
       weidianUrl: row.weidian_url,
       kakobuyUrl: row.kakobuy_url,
       isHidden: row.is_hidden,
+      isFeatured: row.is_featured ?? false,
       isScraped: row.is_scraped,
       images: row.images || [],
       options: row.options || [],
