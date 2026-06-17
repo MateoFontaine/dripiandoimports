@@ -171,13 +171,35 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
           <span>Unirse al grupo de WhatsApp</span>
         </a>
 
-        <div className="max-w-7xl mx-auto px-4 py-3 grid grid-cols-[1fr_auto] gap-x-3 gap-y-2 items-center sm:flex sm:flex-wrap sm:gap-x-3 sm:gap-y-2">
-          <div className="col-start-1 row-start-1 min-w-0">
+        {/* Mobile: 2 rows (brand+cart / search). Desktop: single row (brand | search | cart) */}
+        <div className="max-w-7xl mx-auto px-4 py-3 grid grid-cols-[1fr_auto] gap-x-3 gap-y-2 items-center sm:flex sm:items-center sm:gap-3">
+          {/* Brand — col 1 row 1 on mobile, first item on desktop */}
+          <div className="min-w-0">
             <h1 className="text-xl font-bold tracking-tight leading-none">Dripeando Imports</h1>
             <p className="text-xs text-zinc-500 mt-0.5">Seleccioná marca y producto</p>
           </div>
 
-          <div className="col-span-2 row-start-2 relative sm:flex-1 sm:max-w-sm sm:ml-auto sm:row-auto sm:col-auto">
+          {/* Cart — col 2 row 1 on mobile, pushed to end on desktop with sm:order-last */}
+          <button
+            className="relative flex items-center justify-center w-11 h-11 border border-zinc-200 rounded-full bg-white cursor-pointer flex-shrink-0 justify-self-end sm:order-last"
+            type="button"
+            title="Carrito"
+            onClick={() => cartModalRef.current?.showModal()}
+          >
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+            </svg>
+            {cartCount > 0 && (
+              <span className="absolute -top-1 -right-1 min-w-[1.1rem] h-[1.1rem] px-1 rounded-full bg-green-600 text-white text-[0.65rem] font-bold leading-[1.1rem] text-center">
+                {cartCount}
+              </span>
+            )}
+          </button>
+
+          {/* Search — col-span-2 row 2 on mobile, flex-1 (middle) on desktop */}
+          <div className="col-span-2 relative sm:col-auto sm:flex-1 sm:max-w-sm">
             <svg
               className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400 pointer-events-none"
               viewBox="0 0 24 24"
@@ -197,24 +219,6 @@ export default function CatalogApp({ initialCatalog }: CatalogAppProps) {
               onChange={(e) => setSearch(e.target.value)}
             />
           </div>
-
-          <button
-            className="col-start-2 row-start-1 relative flex items-center justify-center w-11 h-11 border border-zinc-200 rounded-full bg-white cursor-pointer flex-shrink-0 justify-self-end sm:row-auto sm:col-auto"
-            type="button"
-            title="Carrito"
-            onClick={() => cartModalRef.current?.showModal()}
-          >
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="9" cy="21" r="1" />
-              <circle cx="20" cy="21" r="1" />
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-            </svg>
-            {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 min-w-[1.1rem] h-[1.1rem] px-1 rounded-full bg-green-600 text-white text-[0.65rem] font-bold leading-[1.1rem] text-center">
-                {cartCount}
-              </span>
-            )}
-          </button>
         </div>
       </header>
 
